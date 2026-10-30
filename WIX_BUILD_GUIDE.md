@@ -1,4 +1,4 @@
-# Building Enrique's portfolio in Wix (about 45 min)
+7# Building Enrique's portfolio in Wix (about 45 min)
 
 The design is in `index.html`. Open it in Chrome to see the finished look. All text, captions and contact details are in that file, so copy them from there.
 
