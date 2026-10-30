@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enrique Claassen | Journalism Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0f1b2d;--navy2:#16263d;--gold:#d9a441;--cream:#f6f1e7;--ink:#1c2430;--mute:#6b7685}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Montserrat,sans-serif;color:var(--ink);background:var(--cream);line-height:1.7}
+h1,h2,h3{font-family:'Playfair Display',serif;line-height:1.2}
+a{color:inherit}
+nav{position:sticky;top:0;z-index:10;background:var(--navy);display:flex;justify-content:center;gap:2.5rem;padding:1rem}
+nav a{color:#fff;text-decoration:none;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase}
+nav a:hover{color:var(--gold)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+section{padding:4.5rem 0}
+.hero{background:var(--navy);color:#fff;padding:4rem 0}
+.hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:3rem;align-items:center}
+.eyebrow{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.78rem;font-weight:600}
+.hero h1{font-size:clamp(2.4rem,5vw,4rem);margin:.6rem 0 1.2rem}
+.hero p{color:#d5dbe5;margin-bottom:1rem}
+.hero img{width:100%;border-radius:4px;border-bottom:8px solid var(--gold);display:block;height:auto}
+.btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}
+.btn{display:inline-block;padding:.8rem 1.6rem;background:var(--gold);color:var(--navy);text-decoration:none;font-weight:600;font-size:.85rem;border:2px solid var(--gold)}
+.btn.o{background:transparent;color:#fff;border-color:#fff}
+.btn:hover{opacity:.85}
+h2{font-size:2.2rem;margin-bottom:.4rem}
+.rule{width:64px;height:4px;background:var(--gold);margin:.6rem 0 2rem}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+.about ul{list-style:none}
+.about li{padding:.5rem 0;border-bottom:1px solid #ddd3bf}
+.about li b{color:var(--navy)}
+.dark{background:var(--navy2);color:#fff}
+.dark .rule{background:var(--gold)}
+.story{background:#fff;padding:2rem;margin-bottom:2rem;border-left:6px solid var(--gold);box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.story h3{font-size:1.6rem;margin-bottom:.3rem}
+.meta{font-size:.78rem;color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem}
+.story p{margin-bottom:.9rem}
+.story h4{margin:1.4rem 0 .6rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;color:var(--navy)}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.8rem}
+.gal figure{cursor:zoom-in;overflow:hidden;background:var(--navy)}
+.gal img{width:100%;height:170px;object-fit:cover;display:block;transition:transform .3s}
+.gal figure:hover img{transform:scale(1.06)}
+.gal figcaption{font-size:.75rem;color:#fff;padding:.4rem .6rem}
+.vids{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+.vids video{width:100%;background:#000;display:block}
+.vids p{font-size:.8rem;color:var(--mute);margin-top:.3rem}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+.contact a{color:var(--gold)}
+form{display:grid;gap:.8rem}
+input,textarea{padding:.8rem;font:inherit;border:0;border-radius:2px}
+footer{background:var(--navy);color:#9aa5b5;text-align:center;padding:1.5rem;font-size:.8rem}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;z-index:50;cursor:zoom-out}
+#lb img{max-width:92vw;max-height:90vh}
+@media(max-width:760px){.hero .wrap,.about,.contact{grid-template-columns:1fr}nav{gap:1rem;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+
+<header class="hero" id="home"><div class="wrap">
+  <div>
+    <div class="eyebrow">Journalism Student &middot; News Intern</div>
+    <h1>Enrique Jason Claassen</h1>
+    <p>I'm a journalism student completing my Work-Integrated Learning (WIL) in the news department at the SABC.</p>
+    <p>This portfolio brings together my court reports, breaking news and video work from the newsroom, covering the Western Cape's biggest trials, the taxi violence crisis and more.</p>
+    <div class="btns">
+      <a class="btn" href="#portfolio">View My Work</a>
+      <a class="btn o" href="Enrique Claassen CV.pdf">View My CV</a>
+      <a class="btn o" href="#contact">Contact Me</a>
+    </div>
+  </div>
+  <img src="PROFILE PICTURE.jpeg" alt="Enrique Claassen">
+</div></header>
+
+<section id="about"><div class="wrap">
+  <h2>About Me</h2><div class="rule"></div>
+  <div class="about">
+    <div>
+      <p>My name is Enrique Jason Claassen. I'm a journalism student currently doing my WIL placement in the news department at the SABC.</p>
+      <p style="margin-top:1rem">In the newsroom I cover court proceedings, police briefings and breaking stories. I also work with video, including vox pops and courtroom footage. My aim is accurate, fair and clear reporting.</p>
+    </div>
+    <ul>
+      <li><b>Current role:</b> WIL Intern, News Department, SABC</li>
+      <li><b>Focus:</b> Court reporting, breaking news, video</li>
+      <li><b>Email:</b> <a href="mailto:enriqueclaassen65@gmail.com">enriqueclaassen65@gmail.com</a></li>
+      <li><b>Phone:</b> <a href="tel:0717643324">071 764 3324</a></li>
+      <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/enrique-claassen-ba5a86383/" target="_blank" rel="noopener">Enrique Claassen</a></li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="dark" id="portfolio"><div class="wrap">
+  <h2>Portfolio</h2><div class="rule"></div>
+
+  <article class="story" style="color:var(--ink)">
+    <h3>Police Briefing on Taxi Violence in the Western Cape</h3>
+    <div class="meta">Green Point Police Station &middot; 29 October 2026</div>
+    <p>A police briefing on taxi violence in the Western Cape is underway at the Green Point Police Station. Provincial Police Commissioner Lieutenant General Sizakele Dyanti highlighted ongoing violence and shootings involving the taxi industry. He also confirmed that operations supported by crime intelligence are ready to address the situation.</p>
+    <p>Commissioner for the City of Cape Town's Safety and Security Directorate, Johan Brandt, says law enforcement will do everything possible to stop the violence. He confirmed that arrests have been made in connection with the incidents since 16 October and that the cases were proceeding in court.</p>
+    <p>General Dyanti also addressed deployment at taxi ranks, especially in Delft, and preparations for the upcoming elections. He added that deployment plans were in place, with support from the City of Cape Town. Additional measures, including drones and cameras, are also part of the operational plan to improve public safety.</p>
+    <h4>Video</h4>
+    <div class="vids">
+      <div><video controls preload="none" src="TAXI IMPACT ON AIRPORT .mp4"></video><p>Taxi violence: impact on the airport</p></div>
+      <div><video controls preload="none" src="TAXI IMPACT ON ELECTIONS.mp4"></video><p>Taxi violence: impact on the elections</p></div>
+      <div><video controls preload="none" src="VOXIE AT AIRPORT ON TAXI IMPACT.mp4"></video><p>Vox pops at the airport</p></div>
+    </div>
+  </article>
+
+  <article class="story" style="color:var(--ink)">
+    <h3>The Inquest into the Death of Anele Tembe</h3>
+    <div class="meta">Cape Town Magistrate's Court &middot; October 2026</div>
+    <p>The inquest into the death of 22-year-old Anele Tembe, who was engaged to the late rapper Kiernan "AKA" Forbes, is examining forensic evidence surrounding her fatal fall from a hotel balcony in April 2021.</p>
+    <p>Proceedings have focused on crime scene evidence, footprints recovered from the balcony and scenario tests conducted to examine possibilities regarding the fall. Lieutenant Colonel Jeremy Philander, a forensic analyst and ballistic engineer, testified about simulations using a dummy. His evidence was challenged in cross-examination by Tembe's legal representative, with questions raised about the tests, the calculations and the limitations of the reconstruction.</p>
+    <p>The court also heard testimony about photographs taken at the scene and the collection of forensic evidence from the hotel room and balcony. At least seven witnesses were expected to testify during the week.</p>
+    <h4>Tuesday, 20 October 2026</h4>
+    <p>A witness was cross-examined about the test dummy scenarios, including calculations relating to the speed and point of impact, and whether the evidence could determine if Tembe was pushed or jumped. The witness said being pushed was a possibility but that there was not enough evidence to confirm it. The court also discussed the post-mortem findings, possible signs of a struggle, and injuries reportedly observed on Forbes.</p>
+    <p>Testimony covered substances found in Tembe's blood, which the witness said were in quantities too low to be measured. Dr Belinga Bongwalanga's planned testimony via Microsoft Teams was delayed by technical difficulties. The witness confirmed that no tests or samples were taken from Forbes for drugs or alcohol.</p>
+    <p>The proceedings highlighted the importance of examining evidence carefully, questioning witness testimony and knowing the difference between what might have happened and what has been proven.</p>
+  </article>
+
+  <article class="story" style="color:var(--ink)">
+    <h3>Ralph Stanfield and 13 Co-accused on Trial in the Cape Town High Court</h3>
+    <div class="meta">Cape Town High Court &middot; 27 &amp; 28 October 2026</div>
+    <h4>Tuesday, 27 October 2026</h4>
+    <p>The case against alleged gang boss Ralph Stanfield and 13 co-accused continued at the High Court on Tuesday, with further cross-examination of a witness. Stanfield, his wife Nicole Johnson and the co-accused face a wide range of charges, including the murder of gang leader Rashied Staggie in 2019 and of City of Cape Town employee Wendy Kloppers in 2023.</p>
+    <p>The prosecutor raised concerns about an alleged attempt by an attorney representing accused number six to contact a state witness, and asked the court to investigate. During the afternoon, video footage was played showing a tenant being assaulted by several accused. Questions were raised about the tenant's phone, and accused number one denied involvement in phone theft or fraud.</p>
+    <p>The defence also questioned Witness 3 about his duties as a supervisor, the security room and camera footage, challenging inconsistencies in his statements and his ability to recall events accurately.</p>
+    <h4>Wednesday, 28 October 2026</h4>
+    <p>The trial continued with the cross-examination of Witness 3. The defence challenged his credibility by questioning inconsistencies in his earlier testimony, including his claim that he went to Mr Dawie's office and whether he recorded the incident in the occurrence book. The witness maintained that he had made an entry and suggested the occurrence book be brought to court.</p>
+    <p>The defence also questioned an alleged statement that the group of accused were "untouchable", and whether accused number three had spoken to him about a tow truck that was coming. The witness maintained the conversation took place. The prosecutor returned to the video footage to clarify the pattern of the incident, including a conversation involving accused number two about an alleged R1 million theft. Several defence counsel objected as questions about the witness's credibility continued.</p>
+    <h4>Video</h4>
+    <div class="vids">
+      <div><video controls preload="none" src="STANFIELD VIDEO.mp4"></video><p>Ralph Stanfield trial</p></div>
+      <div><video controls preload="none" src="STANFIELD BEFORE LUNCH.mp4"></video><p>Stanfield trial: before lunch</p></div>
+      <div><video controls preload="none" src="STANFIELD ,.mp4"></video><p>Stanfield trial: outside court</p></div>
+    </div>
+  </article>
+
+  <article class="story" style="color:var(--ink)">
+    <h3>Nafiz Modack Trial</h3>
+    <div class="meta">Cape Town High Court &middot; Photos and video</div>
+    <p>Photographs and video from the Nafiz Modack trial, including the state witness, the evidence and the accused on the podium.</p>
+    <div class="vids">
+      <div><video controls preload="none" src="MODACK ACCUSED ON PODIUM.mp4"></video><p>Nafiz Modack trial: accused on the podium</p></div>
+    </div>
+  </article>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+  <h2>Visual Highlights</h2><div class="rule"></div>
+  <div class="gal" id="gal">
+    <figure><img src="MODACK.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial</figcaption></figure>
+    <figure><img src="MODACK (2).jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial</figcaption></figure>
+    <figure><img src="MODACK (3).jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial</figcaption></figure>
+    <figure><img src="MODACK (4).jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial</figcaption></figure>
+    <figure><img src="MODACK & SIBDA.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial, with Sibda</figcaption></figure>
+    <figure><img src="MODACK & ACC.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial, with a co-accused</figcaption></figure>
+    <figure><img src="MODACK & ACC 3.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial, with a co-accused</figcaption></figure>
+    <figure><img src="mODACK & ACC (2).jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial, with a co-accused</figcaption></figure>
+    <figure><img src="MODACK & ACCUSED.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial, with the accused</figcaption></figure>
+    <figure><img src="MODACK CO-ACCUSED 10.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial: accused number 10</figcaption></figure>
+    <figure><img src="MODACK CO-ACCUSED NUMBER 10.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial: accused number 10</figcaption></figure>
+    <figure><img src="MODACK EVIDENCE.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial: evidence</figcaption></figure>
+    <figure><img src="MODACK STATE WITNESS.jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial: state witness</figcaption></figure>
+    <figure><img src="MODACK STATE WITNESS (2).jpeg" alt="" loading="lazy"><figcaption>Nafiz Modack trial: state witness</figcaption></figure>
+    <figure><img src="STATE WITNESS .jpeg" alt="" loading="lazy"><figcaption>State witness in court</figcaption></figure>
+    <figure><img src="STATE WITNESS AGAINST MODACK.jpeg" alt="" loading="lazy"><figcaption>State witness against Modack</figcaption></figure>
+    <figure><img src="STANFIELD.jpeg" alt="" loading="lazy"><figcaption>Ralph Stanfield trial</figcaption></figure>
+    <figure><img src="STANFIELD (2).jpeg" alt="" loading="lazy"><figcaption>Ralph Stanfield trial</figcaption></figure>
+    <figure><img src="STANFIELD & WIFE.jpeg" alt="" loading="lazy"><figcaption>Ralph Stanfield trial, with his wife</figcaption></figure>
+    <figure><img src="STANFIELD & ACCUSED.jpeg" alt="" loading="lazy"><figcaption>Ralph Stanfield trial, with a co-accused</figcaption></figure>
+    <figure><img src="BEFORE TRAIL.jpeg" alt="" loading="lazy"><figcaption>Before the trial begins</figcaption></figure>
+  </div>
+  <h3 style="margin:2.5rem 0 1rem">Video</h3>
+  <div class="vids">
+    <!-- compressed to ~12 MB so it can be uploaded to Wix -->
+    <div><video controls preload="none" src="EJ_VOX_POPS_small.mp4"></video><p>Vox pops: public reaction</p></div>
+  </div>
+</div></section>
+
+<section class="dark" id="contact"><div class="wrap contact">
+  <div>
+    <h2>Contact Me</h2><div class="rule"></div>
+    <p>Get in touch for opportunities or to discuss my work.</p>
+    <p style="margin-top:1rem">Email: <a href="mailto:enriqueclaassen65@gmail.com">enriqueclaassen65@gmail.com</a><br>
+    Phone: <a href="tel:0717643324">071 764 3324</a><br>
+    LinkedIn: <a href="https://www.linkedin.com/in/enrique-claassen-ba5a86383/" target="_blank" rel="noopener">Enrique Claassen</a></p>
+  </div>
+  <form action="mailto:enriqueclaassen65@gmail.com" method="post" enctype="text/plain">
+    <input name="name" placeholder="Your name" required>
+    <input name="email" type="email" placeholder="Your email" required>
+    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+    <button class="btn" type="submit">Send</button>
+  </form>
+</div></section>
+
+<footer>&copy; 2026 Enrique Jason Claassen</footer>
+<div id="lb"><img alt=""></div>
+<script>
+var lb=document.getElementById('lb'),li=lb.querySelector('img');
+document.getElementById('gal').addEventListener('click',function(e){var f=e.target.closest('figure');if(f){li.src=f.querySelector('img').src;lb.style.display='flex'}});
+lb.addEventListener('click',function(){lb.style.display='none'});
+</script>
+</body>
+</html>
